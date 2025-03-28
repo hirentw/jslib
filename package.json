@@ -1,0 +1,13 @@
+{
+  "name": "jslib",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
